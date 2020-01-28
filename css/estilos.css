@@ -4,6 +4,7 @@ html,
 body {
 	padding: 0%;
 	margin: 0%;
+	background-color: #06d6a0;
 }
 
 /* navbar */
@@ -43,4 +44,46 @@ nav a:hover {
 	font-size: 32px;
 }
 
-/* ---------------------------------------------- */
+/* ---------      Main       --------- */
+
+main {
+	text-align: center;
+	font-family: Montserrat;
+}
+
+main h1 {
+	padding-top: 5%;
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-bottom: 5%;
+	color: white;
+}
+
+.products {
+	display: flex;
+	padding: 20px;
+	height: 300px;
+	background: url('../images/Trazado\ 7.svg');
+	background-size: cover;
+	background-position: top center;
+	justify-content: center;
+}
+
+.product {
+	padding: 45px;
+	height: 280px;
+	width: 211px;
+}
+.product .content {
+	padding: 20px;
+	background-color: white;
+	border-radius: 18px;
+	z-index: 1;
+	text-align: left;
+}
+.content img {
+	justify-content: center;
+	z-index: 2;
+	width: 50%;
+	position: relative;
+}

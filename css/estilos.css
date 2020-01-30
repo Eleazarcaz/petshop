@@ -138,7 +138,7 @@ main h1 {
 	outline: none;
 }
 
-/* Section */
+/* Section Features */
 
 .features-section {
 	display: flex;
@@ -159,4 +159,43 @@ main h1 {
 }
 .feature-article img {
 	width: 100%;
+}
+
+/* References */
+
+.references-section {
+	padding: 100px 0px;
+	justify-content: center;
+}
+.references-section h2 {
+	padding: 30px;
+	position: relative;
+	display: block;
+	text-align: center;
+	color: var(--black-titulo);
+}
+.references {
+	display: flex;
+	justify-content: center;
+}
+
+.reference-article {
+	margin: 0px 10px;
+	width: 200px;
+	background-color: #edfffa;
+	box-shadow: var(--sombra);
+}
+.reference-article img {
+	display: block;
+	width: 200px;
+}
+
+.reference-content h3 {
+	font-weight: 700;
+	color: var(--black-titulo);
+}
+
+.reference-content p {
+	font-size: 12px;
+	color: var(--black-titulo);
 }

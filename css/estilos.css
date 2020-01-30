@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
 
+/* Variables */
+:root {
+	--green-color: #06d6a0;
+	--white-color: white;
+	--red-button: #f25f5c;
+	--black-titulo: #424342;
+
+	/* Sombra */
+	--sombra: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+/* ---- */
 html,
 body {
 	padding: 0%;
 	margin: 0%;
-	background-color: #06d6a0;
+	background-color: var(--green-color);
 }
 
 /* navbar */
@@ -12,10 +24,10 @@ nav {
 	display: flex;
 	height: 40px;
 	padding: 10px;
-	background-color: #06d6a0;
+	background-color: var(--green-color);
 	justify-content: space-between;
 	align-items: center;
-	color: white;
+	color: var(--white-color);
 	font-family: Montserrat;
 	font-size: 12px;
 }
@@ -29,12 +41,12 @@ nav ul li {
 }
 
 nav a {
-	color: white;
+	color: var(--white-color);
 	text-decoration: none;
 }
 
 nav a:hover {
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid var(--white-color);
 }
 
 .brand p {
@@ -56,7 +68,7 @@ main h1 {
 	padding-right: 25%;
 	padding-left: 25%;
 	padding-bottom: 5%;
-	color: white;
+	color: var(--white-color);
 }
 
 .products {
@@ -78,13 +90,13 @@ main h1 {
 
 .content {
 	padding: 20px;
-	background-color: white;
+	background-color: var(--white-color);
 	border-radius: 18px;
 	text-align: left;
-	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: var(--sombra);
 }
 .content h3 {
-	color: #424342;
+	color: var(--black-titulo);
 	font-size: 20px;
 	font-weight: 900;
 }
@@ -112,8 +124,8 @@ main h1 {
 	padding: 10px;
 	font-size: 20px;
 	font-weight: 700;
-	color: white;
-	background-color: #f25f5c;
+	color: var(--white-color);
+	background-color: var(--red-button);
 	border-radius: 18px;
 	border: none;
 	cursor: pointer;

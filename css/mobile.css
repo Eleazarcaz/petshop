@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+	.products {
+		display: inherit;
+		height: auto;
+	}
+
+	.product {
+		margin: auto;
+		padding: 45px 0px;
+	}
+
+	main h1 {
+		font-size: 28px;
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-bottom: 0px;
+	}
+
+	.features-section {
+		display: inherit;
+		justify-content: center;
+	}
+
+	.feature-article {
+		margin: auto;
+		margin-top: 20px;
+		width: 200px;
+	}
+
+	.references-section {
+		padding: 0px;
+	}
+
+	.references {
+		display: inherit;
+	}
+
+	.reference-article {
+		margin: auto;
+		margin-top: 20px;
+	}
+}

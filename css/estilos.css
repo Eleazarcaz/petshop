@@ -190,6 +190,10 @@ main h1 {
 	width: 200px;
 }
 
+.reference-content {
+	padding: 10px;
+}
+
 .reference-content h3 {
 	font-weight: 700;
 	color: var(--black-titulo);

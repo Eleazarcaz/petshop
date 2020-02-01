@@ -203,3 +203,24 @@ main h1 {
 	font-size: 12px;
 	color: var(--black-titulo);
 }
+
+/* Footer */
+
+footer {
+	margin-top: 20px;
+	bottom: 0%;
+	height: 50px;
+	background-color: var(--black-titulo);
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	font-family: Montserrat;
+	font-size: 12px;
+	color: var(--white-color);
+	padding: 10px;
+}
+
+.option {
+	height: auto;
+	margin: auto 10px;
+}

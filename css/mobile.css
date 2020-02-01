@@ -39,4 +39,9 @@
 		margin: auto;
 		margin-top: 20px;
 	}
+
+	footer {
+		display: block;
+		width: auto;
+	}
 }

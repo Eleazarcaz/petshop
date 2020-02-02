@@ -17,6 +17,8 @@ body {
 	padding: 0%;
 	margin: 0%;
 	background-color: var(--green-color);
+	min-width: 100%;
+	height: 100%;
 }
 
 /* navbar */
@@ -208,7 +210,9 @@ main h1 {
 
 footer {
 	margin-top: 20px;
+	position: relative;
 	bottom: 0%;
+
 	height: 50px;
 	background-color: var(--black-titulo);
 	display: flex;
@@ -235,4 +239,61 @@ main .container img {
 	text-align: left;
 	padding: 50px;
 	font-size: 14px;
+}
+
+/* Pago */
+
+.modulo-pago {
+	background-color: var(--white-color);
+	box-shadow: var(--sombra);
+	border-radius: 18px;
+	margin: auto;
+}
+
+.img-product-sell {
+	width: 50%;
+	margin: auto;
+	padding: 10%;
+}
+
+form {
+	text-align: left;
+	padding: 40px;
+}
+form label {
+	display: block;
+	margin-top: 10px;
+	color: rgb(99, 99, 99);
+}
+
+form input {
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	padding: 5px;
+	height: 35px;
+	font-size: 16px;
+	margin-top: 10px;
+	color: rgb(59, 59, 59);
+	border: 1px solid rgb(167, 167, 167);
+	outline: none;
+}
+
+form input:focus {
+	border: 1px solid rgb(63, 63, 63);
+}
+
+form button {
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	color: var(--white-color);
+	font-size: 20px;
+	padding: 10px;
+	background-color: var(--red-button);
+	outline: none;
+}
+
+form button:focus {
+	background-color: indianred;
 }

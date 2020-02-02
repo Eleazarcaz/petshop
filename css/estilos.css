@@ -224,3 +224,15 @@ footer {
 	height: auto;
 	margin: auto 10px;
 }
+
+/* Página productos */
+
+main .container img {
+	width: 100%;
+}
+
+.content-product {
+	text-align: left;
+	padding: 50px;
+	font-size: 14px;
+}

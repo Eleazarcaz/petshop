@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
+body {
+	background-color: #64ab40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: Montserrat;
+	font-weight: 700;
+
+	color: #1d2f18;
+}
+
+a {
+	color: rgb(21, 21, 21);
+}
